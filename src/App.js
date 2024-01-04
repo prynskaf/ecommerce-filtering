@@ -71,10 +71,15 @@ function App() {
 
   return (
     <>
-      <Sidebar handleChange={handleChange} />
-      <Navigation query={query} handleInputChange={handleInputChange} />
-      <Recommended handleClick={handleClick} />
-      <Products result={result} />
+      <div className='media'>
+        <Sidebar handleChange={handleChange} />
+        <Navigation query={query} handleInputChange={handleInputChange} />
+        <Recommended handleClick={handleClick} />
+        <Products result={result} />
+      </div>
+      <div className='visible'>Work In progress...
+        <span className='span'>Exlpore it on large screens</span>
+      </div>
     </>
   );
 }
