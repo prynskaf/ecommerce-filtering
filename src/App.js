@@ -78,7 +78,7 @@ function App() {
         <Products result={result} />
       </div>
       <div className='visible'>Work In progress...
-        <span className='span'>Exlpore it on large screens</span>
+        <span className='span'>EXplore it on large screens 🙋🏽</span>
       </div>
     </>
   );
